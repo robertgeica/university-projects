@@ -1,0 +1,406 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+
+    <title>Administrare livada</title>
+    <style>
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+      }
+
+      .modal-content {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 60%;
+      }
+
+      .closeModal {
+        color: #aaaaaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+
+      .closeModal:hover,
+      .closeModal:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      #title {
+        font-family: times, Times New Roman, times-roman, georgia, serif;
+        font-size: 28px;
+        line-height: 40px;
+        letter-spacing: -1px;
+        color: #444;
+        text-align: center;
+        margin: 0;
+      }
+
+      .table-container {
+        display: flex;
+        flex-direction: column;
+      }
+      table {
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        font-family: sans-serif;
+        min-width: 400px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+      }
+
+      table thead tr {
+        background-color: #009879;
+        color: #ffffff;
+        text-align: left;
+      }
+
+      table th,
+      table td {
+        padding: 12px 15px;
+        text-align: center;
+      }
+
+      table tbody tr {
+        border-bottom: 1px solid #dddddd;
+      }
+
+      table tbody tr:hover {
+        color: #009879;
+        border-bottom: 2px solid #009879;
+      }
+
+      table tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+      }
+
+      table tbody tr:last-of-type {
+        border-bottom: 2px solid #009879;
+      }
+
+      #openAddModal {
+        display: flex;
+      }
+
+      #openAddModal,
+      #edit-pom,
+      #add-pom {
+        background-color: white;
+        color: black;
+        border: 2px solid #555555;
+        margin: 10px auto;
+        padding: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+        font-weight: 600;
+      }
+
+      #openAddModal:hover,
+      #edit-pom:hover,
+      #add-pom:hover {
+        background-color: #555555;
+        color: white;
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+          0 17px 50px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      .delete-button,
+      .edit-button {
+        cursor: pointer;
+      }
+      .form {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin: auto;
+      }
+
+      input[type="text"],
+      input[type="number"] {
+        padding: 10px;
+        margin: 8px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="title">Administrare livada</h1>
+
+    <div id="add-modal" class="modal">
+      <div class="modal-content">
+        <span onclick="closeAddModal()" class="closeModal">&times;</span>
+        <form class="form" action="/api/livada" method="POST">
+          <input type="text" name="nume_pom" placeholder="Nume pom" />
+          <input type="text" name="soi_pom" placeholder="Soi pom" />
+          <input
+            type="text"
+            name="perioada_insamantare"
+            placeholder="Perioada insamantare"
+          />
+          <input
+            type="text"
+            name="perioada_coacere"
+            placeholder="Perioada coacere"
+          />
+          <input
+            type="number"
+            name="inaltime_maturitate"
+            placeholder="Inaltime maturitate (m)"
+          />
+          <input
+            type="number"
+            name="distanta_plantare"
+            placeholder="Distanta plantare (m)"
+          />
+          <input
+            type="number"
+            name="rezistenta_inghet"
+            placeholder="Rezistenta inghet (C)"
+          />
+          <input
+            type="number"
+            name="productivitate"
+            placeholder="Productivitate (Kg)"
+          />
+          <input type="number" name="pret" placeholder="Pret" />
+          <input id="add-pom" type="submit" value="Adauga pom" />
+        </form>
+      </div>
+    </div>
+    <br />
+
+    <button id="openAddModal" onclick="openAddModal()">Adaugare pom</button>
+    <% if (data.length > 0) {%>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Nume</th>
+            <th>Soi</th>
+            <th>Plantare</th>
+            <th>Coacere</th>
+            <th>Inaltime</th>
+            <th>Distanta</th>
+            <th>Rezistenta inghet</th>
+            <th>Recolta</th>
+            <th>Pret</th>
+            <th>Actiuni</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% for(var i=0; i < data.length; i++) {%>
+          <tr>
+            <td><%= data[i].nume_pom%></td>
+            <td><%= data[i].soi_pom%></td>
+            <td><%= data[i].perioada_insamantare%></td>
+            <td><%= data[i].perioada_coacere%></td>
+            <td><%= data[i].inaltime_maturitate%></td>
+            <td><%= data[i].distanta_plantare%></td>
+            <td><%= data[i].rezistenta_inghet%></td>
+            <td><%= data[i].productivitate%></td>
+            <td><%= data[i].pret%></td>
+            <td>
+              <i
+                class="far fa-trash-alt delete-button"
+                data-id="<%= data[i]._id%>"
+              ></i>
+
+              <i
+                id="openEditModal"
+                class="far fa-edit edit-button"
+                data-id="<%= data[i]._id%>"
+              ></i>
+            </td>
+          </tr>
+
+          <!-- Edit modal -->
+          <div id="edit-modal" class="modal">
+            <div class="modal-content">
+              <span onclick="closeEditModal()" class="closeModal">&times;</span>
+              <div class="form">
+                <input
+                  type="text"
+                  name="nume_pom"
+                  placeholder="nume_pom"
+                  id="nume_pom"
+                />
+                <input
+                  type="text"
+                  name="soi_pom"
+                  placeholder="soi_pom"
+                  id="soi_pom"
+                />
+                <input
+                  type="text"
+                  name="perioada_insamantare"
+                  placeholder="perioada_insamantare"
+                  id="perioada_insamantare"
+                />
+                <input
+                  type="text"
+                  name="perioada_coacere"
+                  placeholder="perioada_coacere"
+                  id="perioada_coacere"
+                />
+                <input
+                  type="number"
+                  name="inaltime_maturitate"
+                  placeholder="inaltime_maturitate"
+                  id="inaltime_maturitate"
+                />
+                <input
+                  type="number"
+                  name="distanta_plantare"
+                  placeholder="distanta_plantare"
+                  id="distanta_plantare"
+                />
+                <input
+                  type="number"
+                  name="rezistenta_inghet"
+                  placeholder="rezistenta_inghet"
+                  id="rezistenta_inghet"
+                />
+                <input
+                  type="number"
+                  name="productivitate"
+                  placeholder="productivitate"
+                  id="productivitate"
+                />
+                <input type="number" name="pret" placeholder="pret" id="pret" />
+                <button id="edit-pom">Editare pom</button>
+              </div>
+            </div>
+          </div>
+          <% } %>
+        </tbody>
+      </table>
+    </div>
+    <% } %>
+
+    <script>
+      var addModal = document.getElementById("add-modal");
+      var editModal = document.getElementById("edit-modal");
+
+      const openAddModal = () => {
+        addModal.style.display = "block";
+      };
+      const closeAddModal = () => {
+        addModal.style.display = "none";
+      };
+
+      const openEditModal = () => {
+        editModal.style.display = "block";
+      };
+      const closeEditModal = () => {
+        editModal.style.display = "none";
+      };
+
+      window.onclick = (e) => {
+        if (e.target == editModal) {
+          closeEditModal();
+        }
+
+        if (e.target == addModal) {
+          closeAddModal();
+        }
+      };
+
+      const deletePom = document.getElementsByClassName("delete-button");
+      for (let i = 0; i < deletePom.length; i++) {
+        deletePom[i].addEventListener("click", (e) => {
+          const id = e.target.dataset.id;
+
+          fetch(`/api/livada/${id}`, {
+            method: "DELETE",
+            headers: {
+              "Content-Type": "application/json",
+            },
+          });
+          location.reload();
+        });
+      }
+
+      const editPom = document.getElementsByClassName("edit-button");
+      for (let i = 0; i < editPom.length; i++) {
+        editPom[i].addEventListener("click", (e) => {
+          const element = e.target.parentNode.parentNode;
+          const id = e.target.dataset.id;
+          openEditModal();
+
+          document.getElementById("nume_pom").defaultValue =
+            element.childNodes[0].nextSibling.innerText;
+          document.getElementById("soi_pom").defaultValue =
+            element.childNodes[2].nextSibling.innerText;
+          document.getElementById("perioada_insamantare").defaultValue =
+            element.childNodes[4].nextSibling.innerText;
+          document.getElementById("perioada_coacere").defaultValue =
+            element.childNodes[6].nextSibling.innerText;
+          document.getElementById("inaltime_maturitate").defaultValue =
+            element.childNodes[8].nextSibling.innerText;
+          document.getElementById("distanta_plantare").defaultValue =
+            element.childNodes[10].nextSibling.innerText;
+          document.getElementById("rezistenta_inghet").defaultValue =
+            element.childNodes[12].nextSibling.innerText;
+          document.getElementById("productivitate").defaultValue =
+            element.childNodes[14].nextSibling.innerText;
+          document.getElementById("pret").defaultValue =
+            element.childNodes[16].nextSibling.innerText;
+
+          const edit = document.getElementById("edit-pom");
+          edit.setAttribute("data-id", id);
+          edit.addEventListener("click", (e) => {
+            const newPom = {
+              nume_pom: document.getElementById("nume_pom").value,
+              soi_pom: document.getElementById("soi_pom").value,
+              perioada_insamantare: document.getElementById(
+                "perioada_insamantare"
+              ).value,
+              perioada_coacere:
+                document.getElementById("perioada_coacere").value,
+              inaltime_maturitate: document.getElementById(
+                "inaltime_maturitate"
+              ).value,
+              distanta_plantare:
+                document.getElementById("distanta_plantare").value,
+              rezistenta_inghet:
+                document.getElementById("rezistenta_inghet").value,
+              productivitate: document.getElementById("productivitate").value,
+              pret: document.getElementById("pret").value,
+            };
+
+            fetch(`/api/livada/${e.target.dataset.id}`, {
+              method: "PATCH",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(newPom),
+            });
+            location.reload();
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
