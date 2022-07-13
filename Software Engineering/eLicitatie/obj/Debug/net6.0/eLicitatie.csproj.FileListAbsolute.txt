@@ -1,0 +1,130 @@
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/appsettings.Development.json
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/appsettings.json
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/eLicitatie.staticwebassets.runtime.json
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/eLicitatie
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/eLicitatie.deps.json
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/eLicitatie.runtimeconfig.json
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/eLicitatie.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/eLicitatie.pdb
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/DnsClient.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/System.Web.Cors.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/System.Net.Http.Formatting.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/System.Web.Http.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/System.Web.Http.Cors.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/MongoDB.Bson.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/MongoDB.Driver.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/MongoDB.Driver.Core.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/MongoDB.Libmongocrypt.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/Newtonsoft.Json.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/Scrutor.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/SharpCompress.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/Swashbuckle.AspNetCore.Filters.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/Swashbuckle.AspNetCore.Filters.Abstractions.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/runtimes/linux/native/libsnappy64.so
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/runtimes/linux/native/libzstd.so
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/runtimes/osx/native/libsnappy64.dylib
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/runtimes/osx/native/libzstd.dylib
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/runtimes/win/native/libzstd.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/runtimes/win/native/snappy32.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/runtimes/win/native/snappy64.dll
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/runtimes/linux/native/libmongocrypt.so
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/runtimes/osx/native/libmongocrypt.dylib
+/home/robertgeica/Documents/eLicitatie/bin/Debug/net6.0/runtimes/win/native/mongocrypt.dll
+/home/robertgeica/Documents/eLicitatie/obj/Debug/net6.0/eLicitatie.csproj.AssemblyReference.cache
+/home/robertgeica/Documents/eLicitatie/obj/Debug/net6.0/eLicitatie.GeneratedMSBuildEditorConfig.editorconfig
+/home/robertgeica/Documents/eLicitatie/obj/Debug/net6.0/eLicitatie.AssemblyInfoInputs.cache
+/home/robertgeica/Documents/eLicitatie/obj/Debug/net6.0/eLicitatie.AssemblyInfo.cs
+/home/robertgeica/Documents/eLicitatie/obj/Debug/net6.0/eLicitatie.csproj.CoreCompileInputs.cache
+/home/robertgeica/Documents/eLicitatie/obj/Debug/net6.0/eLicitatie.MvcApplicationPartsAssemblyInfo.cs
+/home/robertgeica/Documents/eLicitatie/obj/Debug/net6.0/eLicitatie.MvcApplicationPartsAssemblyInfo.cache
+/home/robertgeica/Documents/eLicitatie/obj/Debug/net6.0/eLicitatie.RazorAssemblyInfo.cache
+/home/robertgeica/Documents/eLicitatie/obj/Debug/net6.0/eLicitatie.RazorAssemblyInfo.cs
+/home/robertgeica/Documents/eLicitatie/obj/Debug/net6.0/staticwebassets.build.json
+/home/robertgeica/Documents/eLicitatie/obj/Debug/net6.0/staticwebassets.development.json
+/home/robertgeica/Documents/eLicitatie/obj/Debug/net6.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+/home/robertgeica/Documents/eLicitatie/obj/Debug/net6.0/scopedcss/bundle/eLicitatie.styles.css
+/home/robertgeica/Documents/eLicitatie/obj/Debug/net6.0/scopedcss/projectbundle/eLicitatie.bundle.scp.css
+/home/robertgeica/Documents/eLicitatie/obj/Debug/net6.0/eLicitatie.csproj.CopyComplete
+/home/robertgeica/Documents/eLicitatie/obj/Debug/net6.0/eLicitatie.dll
+/home/robertgeica/Documents/eLicitatie/obj/Debug/net6.0/refint/eLicitatie.dll
+/home/robertgeica/Documents/eLicitatie/obj/Debug/net6.0/eLicitatie.pdb
+/home/robertgeica/Documents/eLicitatie/obj/Debug/net6.0/eLicitatie.genruntimeconfig.cache
+/home/robertgeica/Documents/eLicitatie/obj/Debug/net6.0/ref/eLicitatie.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/appsettings.Development.json
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/appsettings.json
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/eLicitatie.staticwebassets.runtime.json
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/eLicitatie
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/eLicitatie.deps.json
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/eLicitatie.runtimeconfig.json
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/eLicitatie.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/eLicitatie.pdb
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/DnsClient.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/System.Web.Cors.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/System.Net.Http.Formatting.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/System.Web.Http.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/System.Web.Http.Cors.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/MongoDB.Bson.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/MongoDB.Driver.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/MongoDB.Driver.Core.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/MongoDB.Libmongocrypt.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/Newtonsoft.Json.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/Scrutor.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/SharpCompress.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/Swashbuckle.AspNetCore.Filters.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/Swashbuckle.AspNetCore.Filters.Abstractions.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/runtimes/linux/native/libsnappy64.so
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/runtimes/linux/native/libzstd.so
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/runtimes/osx/native/libsnappy64.dylib
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/runtimes/osx/native/libzstd.dylib
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/runtimes/win/native/libzstd.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/runtimes/win/native/snappy32.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/runtimes/win/native/snappy64.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/runtimes/linux/native/libmongocrypt.so
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/runtimes/osx/native/libmongocrypt.dylib
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/bin/Debug/net6.0/runtimes/win/native/mongocrypt.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/obj/Debug/net6.0/eLicitatie.csproj.AssemblyReference.cache
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/obj/Debug/net6.0/eLicitatie.GeneratedMSBuildEditorConfig.editorconfig
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/obj/Debug/net6.0/eLicitatie.AssemblyInfoInputs.cache
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/obj/Debug/net6.0/eLicitatie.AssemblyInfo.cs
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/obj/Debug/net6.0/eLicitatie.csproj.CoreCompileInputs.cache
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/obj/Debug/net6.0/eLicitatie.MvcApplicationPartsAssemblyInfo.cs
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/obj/Debug/net6.0/eLicitatie.MvcApplicationPartsAssemblyInfo.cache
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/obj/Debug/net6.0/eLicitatie.RazorAssemblyInfo.cache
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/obj/Debug/net6.0/eLicitatie.RazorAssemblyInfo.cs
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/obj/Debug/net6.0/staticwebassets.build.json
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/obj/Debug/net6.0/staticwebassets.development.json
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/obj/Debug/net6.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/obj/Debug/net6.0/scopedcss/bundle/eLicitatie.styles.css
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/obj/Debug/net6.0/scopedcss/projectbundle/eLicitatie.bundle.scp.css
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/obj/Debug/net6.0/eLicitatie.csproj.CopyComplete
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/obj/Debug/net6.0/eLicitatie.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/obj/Debug/net6.0/refint/eLicitatie.dll
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/obj/Debug/net6.0/eLicitatie.pdb
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/obj/Debug/net6.0/eLicitatie.genruntimeconfig.cache
+/home/robertgeica/Documents/University projects/Inginerie software/eLicitatie/obj/Debug/net6.0/ref/eLicitatie.dll
