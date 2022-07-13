@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="fisa_inscriere">
+    <xs:complexType>
+      <xs:sequence>
+
+        <xs:element name="prenume" type="xs:string" />
+        <xs:element name="nume" type="xs:string" />
+        <xs:element name="data_nasterii" type="xs:string" />
+        <xs:element name="email" type="xs:string" />
+        <xs:element name="telefon" type="xs:string" />
+        <xs:element name="adresa" type="xs:string" />
+        <xs:element name="certificat_nastere" type="xs:string" />
+        <xs:element name="carte_identitate" type="xs:string" />
+        <xs:element name="taxa_admitere" type="xs:string" />
+        <xs:element name="adeverinta_medicala" type="xs:string" />
+        <xs:element name="diploma_bac" type="xs:string" />
+
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+
+<fisa_inscriere>
+
+  <prenume>Grigore Robert</prenume>
+  <nume>Geica</nume>
+  <data_nasterii>18.09.1997</data_nasterii>
+  <email>geicarobert@gmail.com</email>
+  <telefon>0770150802</telefon>
+  <adresa>Turceni, Gorj</adresa>
+  <certificat_nastere>x</certificat_nastere>
+  <carte_identitate>x</carte_identitate>
+  <taxa_admitere>x</taxa_admitere>
+  <adeverinta_medicala>x</adeverinta_medicala>
+  <diploma_bac>x</diploma_bac>
+
+
+</fisa_inscriere>

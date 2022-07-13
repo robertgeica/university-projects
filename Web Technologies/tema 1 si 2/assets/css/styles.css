@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+:root {
+  --navbar-bg-color: #8395a7;
+  --navbar-text-color: #fff;
+  --navbar-text-color-hover: #e7e7e7;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.button {
+  padding: 0.5em 3em;
+  font-family: "Itim", cursive;
+  border: 0.16em solid var(--navbar-bg-color);
+  margin: 0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+  transition: all 0.15s;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--navbar-bg-color);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Home page */
+
+/* Header */
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background-color: var(--navbar-bg-color);
+}
+
+.navbar-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-list li {
+  padding: 5px;
+}
+
+.navbar-list li a {
+  text-decoration: none;
+  color: var(--navbar-text-color);
+}
+
+.navbar-list li a:hover {
+  text-decoration: none;
+  color: var(--navbar-text-color-hover);
+}
+
+.header-intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 4em;
+}
+
+.intro-logo {
+  width: 250px;
+  height: 250px;
+}
+
+.header-intro-infos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.intro-title {
+  font-family: "Itim", cursive;
+  margin: 0;
+}
+
+.intro-date {
+  margin: 0;
+}
+
+.intro-location {
+  display: flex;
+  align-items: center;
+}
+
+.intro-location-logo {
+  width: 50px;
+}
+
+.intro-presentation {
+  text-align: center;
+  max-width: 80%;
+}
+
+/* News */
+.content-news,
+.content-topics,
+.content-sponsors {
+  margin: 4em;
+}
+
+.content-sponsors {
+  text-align: center;
+}
+
+.content-sponsors h3 {
+  text-align: left;
+}
+
+.content-sponsors img {
+  margin: 0 1.7em;
+}
+/* Topics */
+.content-topics-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.topic-card {
+  flex: 0 0 33.333333%;
+  text-align: center;
+}
+
+.topic-card a {
+  text-decoration: none;
+  color: #000;
+}
+
+.topic-card a p {
+  margin: 0 0 1em;
+}
+
+.topic-card img {
+  width: 80px;
+  height: 80px;
+}
+
+/* Sponsors */
+
+/* Footer */
+footer {
+  background-color: var(--navbar-bg-color);
+  margin: 10em 0 0 0;
+  padding: 1em 0 0 0;
+  height: 60px;
+  width: 100%;
+}
+
+footer ul,
+footer p {
+  margin: 0 4em;
+  color: #fff;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0 4em;
+  padding: 0;
+  display: flex;
+}
+
+footer ul li a {
+  text-decoration: none;
+  padding-right: 1em;
+  color: #fff;
+}
+
+/*** RULES PAGE ***/
+.rules-container {
+  margin: 4em;
+}
+
+.rules-container ol {
+  margin: 2em 0;
+}
+
+.rules-container ol li {
+  margin: 1em 0;
+}
+
+/*** ORGANIZATORS PAGE ***/
+.organizators-info {
+  margin: 4em;
+}
+
+.organizator-info {
+  width: 70%;
+  padding: 1em;
+  margin: 1em auto;
+  border: 1px solid #8395a7;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.organizator-info:hover {
+  transform: scale(1.1);
+}
+
+/*** SPONSORS PAGE ***/
+.sponsors-info {
+  margin: 4em;
+}
+
+.sponsors-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 70%;
+  margin: auto;
+}
+
+.sponsor-img {
+  margin: 1em auto;
+  width: 80px;
+  transition: transform 0.2s;
+}
+
+.sponsor-img:hover {
+  transform: scale(1.1);
+}
+
+/*** NEWS PAGE ***/
+.news-info {
+  margin: 4em;
+}
+
+.news-list {
+  margin: 4em;
+}
+
+.news-element {
+  margin: 4em 0;
+}
+
+.news-element h4 {
+  margin: 0;
+}
+
+.news-element span {
+  margin: 0;
+  font-size: 14px;
+}
+.news-element p {
+  margin: 0.4em 0;
+}
+
+/*** PARTICIPANTS PAGE ***/
+.participants-info {
+  margin: 4em;
+}
+
+.participants-list {
+  margin: 4em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.participant-info {
+  padding: 1em;
+  margin: 1em auto;
+  border: 1px solid #8395a7;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.participant-info:hover {
+  transform: scale(1.1);
+}
+
+/*** SUBJECTS PAGE ***/
+.subjects-info {
+  margin: 4em;
+}
+
+.subjects-list {
+  margin: 4em;
+}
+
+.subject-container {
+  width: 90%;
+  margin: auto;
+}
+
+.subject-title {
+  font-weight: 600;
+}
+
+.subject-description {
+  margin: 0 0.7em;
+}
+
+/*** RESULTS PAGE ***/
+.results-info {
+  margin: 4em;
+}
+
+.results-table {
+  margin: 4em;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+tr:hover {
+  background-color: #dbdbdb;
+}
+
+/*** CONTACT PAGE ***/
+.contact-info {
+  margin: 4em;
+}
+
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.contact-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+/*** REGISTER PAGE ***/
+.register-info,
+.register-container {
+  margin: 4em;
+}
+
+/*** ADMIN PAGE ***/
+.admin-info,
+.admin-participants,
+.admin-news,
+.admin-results {
+  margin: 4em;
+}

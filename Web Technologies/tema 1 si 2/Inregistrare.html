@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inregistrare</title>
+
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar"></nav>
+  </header>
+
+  <main>
+    <section class="register-info">
+      <h3>Inregistrare</h3>
+      <p>
+        Pentru a-ti asigura un loc la concurs completeaza formularul de mai jos!
+      </p>
+    </section>
+
+    <section class="register-container">
+
+      <form action="./assets/php/register-participant.php" method="post" name="form1">
+        <div class="input-group">
+          <label>Nume</label>
+          <input type="text" name="name" value="" />
+        </div>
+
+        <div class="input-group">
+          <label>Email</label>
+          <input type="text" name="email" value="" />
+        </div>
+
+        <div class="input-group">
+          <label>Adresa</label>
+          <input type="text" name="address" value="" />
+        </div>
+
+        <div class="input-group">
+          <label>Telefon</label>
+          <input type="text" name="phone" value="" />
+        </div>
+
+
+        <div class="input-group">
+          <input class="button" type="submit" name="Submit" value="Trimite" />
+        </div>
+      </form>
+    </section>
+    
+
+  </main>
+
+  <script src="./assets/javascript/script.js"></script>
+</body>
+
+</html>

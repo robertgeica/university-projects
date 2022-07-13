@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fisa_inscriere [
+  <!ELEMENT fisa_inscriere (prenume, nume, data_nasterii, email, telefon, adresa, certificat_nastere, carte_identitate, taxa_admitere, adeverinta_medicala, diploma_bac)>
+  <!ELEMENT prenume (#PCDATA)>
+  <!ELEMENT nume (#PCDATA)>
+  <!ELEMENT data_nasterii (#PCDATA)>
+  <!ELEMENT email (#PCDATA)>
+  <!ELEMENT telefon (#PCDATA)>
+  <!ELEMENT adresa (#PCDATA)>
+  <!ELEMENT certificat_nastere (#PCDATA)>
+  <!ELEMENT carte_identitate (#PCDATA)>
+  <!ELEMENT taxa_admitere (#PCDATA)>
+  <!ELEMENT adeverinta_medicala (#PCDATA)>
+  <!ELEMENT diploma_bac (#PCDATA)>
+]>
+
+
+
+<!-- XML -->
+<fisa_inscriere>
+
+  <prenume>Grigore Robert</prenume>
+  <nume>Geica</nume>
+  <data_nasterii>18.09.1997</data_nasterii>
+  <email>geicarobert@gmail.com</email>
+  <telefon>0770150802</telefon>
+  <adresa>Turceni, Gorj</adresa>
+  <certificat_nastere>x</certificat_nastere>
+  <carte_identitate>x</carte_identitate>
+  <taxa_admitere>x</taxa_admitere>
+  <adeverinta_medicala>x</adeverinta_medicala>
+  <diploma_bac>x</diploma_bac>
+
+
+</fisa_inscriere>
