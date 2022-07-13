@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#game {
+  display: block;
+  width: 800px;
+  height: 360px;
+  margin: 50px auto;
+
+  background-image: url("game-background.png");
+  animation: animatedBackground 4s linear infinite;
+}
+
+#stop-game {
+  display: block;
+  width: 800px;
+  height: 360px;
+  margin: 50px auto;
+
+  background-image: url("game-background.png");
+}
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -600px 0px;
+  }
+}
+
+#trex {
+  width: 50px;
+  height: 50px;
+  background-image: url("./trex.png");
+
+  background-size: 50px 50px;
+  position: relative;
+  top: 285px;
+}
+
+.jump {
+  animation: jump 0.5s linear;
+}
+
+@keyframes jump {
+  0% {
+    top: 285px;
+  }
+
+  15% {
+    top: 255px;
+  }
+
+  30% {
+    top: 225px;
+  }
+
+  50% {
+    top: 195px;
+  }
+
+  70% {
+    top: 225px;
+  }
+
+  85% {
+    top: 255px;
+  }
+
+  100% {
+    top: 285px;
+  }
+}
+
+#obstacle {
+  background-image: url("./cactus.png");
+
+  top: 245px;
+  width: 25px;
+  height: 40px;
+  position: relative;
+
+  background-size: 25px 40px;
+  animation: block 3s infinite linear;
+}
+
+#stop-animation {
+  background-image: url("./cactus.png");
+
+  top: 245px;
+  left: 40px;
+  width: 25px;
+  height: 40px;
+  position: relative;
+
+  background-size: 25px 40px;
+}
+
+@keyframes block {
+  0% {
+    left: 770px;
+  }
+
+  100% {
+    left: -20px;
+  }
+}
+
+
+
+
+#overlay {
+  position: fixed;
+  display: none; 
+  width: 100%; 
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); 
+  z-index: 2; 
+}
+
+#start-btn {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer; 
+  width: 10em;
+  height: 5em;
+}
+
+#start-btn:hover {
+  background-color: rgb(189, 187, 187);
+}
