@@ -1,0 +1,14 @@
+Aici veti atasa cele 3 documente ale proiectului:
+- Nume_prenume.sav (fisierul de date)
+- Nume_prenume.spv (fisierul de rezultate)
+- Nume_prenume.docx (fisierul de comentarii si printscreenuri)
+Veti alege 2 indicatori dintr-o tara oarecare pentru perioada 2000-2019.
+Titlul proiectului este "Corelatia dintre .......(indicator 1) si ......... (indicator 2) din ...... (tara)
+Veti parcurge obligatoriu urmatorii pasi:
+- analiza descriptiva
+- grafice ale evolutiei celor 2 indicatori
+- analiza corelatiei dintre cei 2 indicatori
+- gasirea formulei de regresie dintre cei 2 indicatori: Y= a*X+b, voi inlocuind aceste litere cu valori obtinute din tabelul de coeficienti
+- apoi completati voi cu 5 valori pentru indicatorul "independent", pentru urmatorii 5 ani, iar apoi calculati indicatorul "dependent" dupa formula obtinuta si obtineti astfel o previziune pentru urmatorii 5 ani
+Atasati aici cele 3 documente. Cu cat explicati mai complet cu atat mai bine!
+Mult succes!
